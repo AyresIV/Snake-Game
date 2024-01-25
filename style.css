@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+  }
+  
+  canvas {
+    border: 1px solid #000;
+  }
+  
+  #gameOverContainer {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  #gameOverMessage {
+    color: red;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  #scoreDisplay {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  #newGameButton {
+    display: none;
+    padding: 10px;
+    font-size: 16px;
+    color: white;
+    background-color: green;
+    cursor: pointer;
+  }
+  
